@@ -18,13 +18,12 @@ or run `composer require glebstar/laravel5-products`
 
 Then run composer update in your terminal to pull it in.
 
-Once this has finished, you will need to add the service provider to the providers array in your app.php config as follows:
+You will need to add the service provider to the providers array in your app.php config as follows:
 ```php
 GlebStarProducts\ServiceProvider::class,
 ```
 
-Added alias for ProductMiddlewate in app/Http/Kernel.php into $routeMiddleware array:
-
+Added alias for ProductMiddleware in app/Http/Kernel.php into $routeMiddleware array:
 ```php
 'product' => \GlebStarProducts\Middleware\ProductMiddleware::class,
 ```
