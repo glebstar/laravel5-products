@@ -23,7 +23,7 @@ You will need to add the service provider to the providers array in your app.php
 GlebStarProducts\ServiceProvider::class,
 ```
 
-Add a alias for ProductMiddleware in app/Http/Kernel.php into $routeMiddleware array:
+Add an alias for ProductMiddleware in app/Http/Kernel.php into $routeMiddleware array:
 ```php
 'product' => \GlebStarProducts\Middleware\ProductMiddleware::class,
 ```
