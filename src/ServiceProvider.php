@@ -21,7 +21,7 @@ class ServiceProvider extends LServiceProvider
         // published views
         $this->loadViewsFrom(__DIR__ . '/../views', 'products');
         $this->publishes([
-            __DIR__ . '/../views' => base_path('resources/views/vendor/simplecms'),
+            __DIR__ . '/../views' => base_path('resources/views/vendor/products'),
         ], 'views');
     }
 }
