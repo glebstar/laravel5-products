@@ -1,0 +1,22 @@
+{
+    "name": "glebstar/laravel5-products",
+    "description": "Products manager for Laravel 5",
+    "keywords": ["products laravel5"],
+    "homepage": "https://github.com/glebstar/laravel5-products",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gleb Starkov",
+            "email" : "glebstarkov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "GlebStarProducts\\": "src"
+        }
+    }
+}
